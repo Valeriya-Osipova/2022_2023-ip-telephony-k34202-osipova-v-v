@@ -109,7 +109,28 @@ Switch(config-if)#switchport voice vlan 1
 7. На маршрутизаторе присваиваем номера телефонам:
 
 ```
-
+CMERouter(config)#ephone-dn 1
+CMERouter(config-ephone-dn)#number 89111
+CMERouter(config-ephone-dn)#ex
+CMERouter(config)#ephone-dn 2
+CMERouter(config-ephone-dn)#number 89222
 ```
 
-8. 
+8. Подключаем IP-телефоны к источнику питания:
+
+![image](https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/5119ae06-5711-4894-89ed-cb4fe6154a97)
+
+Таким образом, схема сети в Cisco Packet Tracer выглядит следующим образом:
+
+![image](https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/a487eb20-a055-4c33-b847-536fbe693978)
+
+При наведении мыши на IP-телефон можно увидеть присвоенный IP-адрес и номер:
+
+![image](https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/06b91198-2abf-41ff-8088-913def9ff35c)
+
+9. Проверим звонки между телефонами:
+
+![image](https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/03943cd5-1d71-4e2a-990d-bbe1c9ca586d)
+
+Звонки проходят успешно.
+
