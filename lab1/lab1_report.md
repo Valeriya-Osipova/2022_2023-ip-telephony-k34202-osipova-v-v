@@ -23,7 +23,7 @@ Date of finished:
 
 ### Ход работы
 
-#### 1.
+#### 1 часть
 
 1. Собираем схему соединения, указанную на рисунке
 
@@ -42,5 +42,25 @@ Date of finished:
 3. Выполняем команду ping на разных ПК, чтобы проверить связность. Убеждаемся, что любой компьютер посредством пинга успешно передает пакеты любому другому компьютеры на схеме. Пример пинга:
 
 ![image](https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/4acabaea-5b98-4b5d-9920-e8d766a291fe)
+
+#### 2 часть
+
+1. Собираем схему соединения, указанную на рисунке
+
+![схема2 drawio](https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/5cfa828a-ae1d-4eeb-878b-1cdd741e2dd9)
+
+2. Изменяем имя маршрутизатора на CMERouter
+
+```
+Router(config)#hostname CMERouter
+CMERouter(config)#
+```
+
+3. Настраиваем интерфейс fa0/0 на маршрутизаторе CMERouter, направленный на коммутатор. Присвоим ему IP-адрес 192.168.0.1 с маской 255.255.255.0
+
+```
+CMERouter(config)#interface FastEthernet0/0
+CMERouter(config-if)#ip address 192.168.0.1 255.255.255.0
+```
 
 4. 
