@@ -73,4 +73,43 @@ CMERouter(dhcp-config)#default-router 192.168.0.1
 CMERouter(dhcp-config)#option 150 ip 192.168.0.1
 ```
 
-5. 
+Появляется следующее сообщение:
+
+```
+%IPPHONE-6-REGISTER: ephone-1 IP:192.168.0.2 Socket:2 DeviceType:Phone has registered.
+%IPPHONE-6-REGISTER: ephone-2 IP:192.168.0.3 Socket:2 DeviceType:Phone has registered.
+```
+
+Таким образом, двум IP-телефонам динамически присвоены адреса 192.168.0.2 и 192.168.0.3 соответственно.
+
+5. Также на маршрутизаторе настроим VoIP параметры, указываем максимальное количество IP-телефонов и номеров для них - 10, шлюз - 3100, адрес интерфейса маршрутизатора 192.168.0.1:
+
+```
+CMERouter(config)#telephony-service
+CMERouter(config-telephony)#max-dn 10
+CMERouter(config-telephony)#max-ephones 10
+CMERouter(config-telephony)#ip source-address 192.168.0.1 port 3100
+CMERouter(config-telephony)#auto assign 1 to 19
+```
+
+6. На коммутаторе включим поддержку VoIP на интерфейсах:
+
+```
+Switch(config)#interface FastEthernet 0/1
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport voice vlan 1
+Switch(config-if)#interface FastEthernet 0/2
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport voice vlan 1
+Switch(config-if)#interface FastEthernet 0/3
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport voice vlan 1
+```
+
+7. На маршрутизаторе присваиваем номера телефонам:
+
+```
+
+```
+
+8. 
