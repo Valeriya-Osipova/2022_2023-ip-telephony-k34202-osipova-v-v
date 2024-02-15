@@ -61,6 +61,16 @@ CMERouter(config)#
 ```
 CMERouter(config)#interface FastEthernet0/0
 CMERouter(config-if)#ip address 192.168.0.1 255.255.255.0
+CMERouter(config-if)#no shutdown
 ```
 
-4. 
+4. На маршрутизаторе настраиваем DHCP-сервер, выделяем пул для IP–телефонов под названием phones:
+
+```
+CMERouter(config-if)#ip dhcp pool phones
+CMERouter(dhcp-config)#network 192.168.0.0 255.255.255.0
+CMERouter(dhcp-config)#default-router 192.168.0.1
+CMERouter(dhcp-config)#option 150 ip 192.168.0.1
+```
+
+5. 
