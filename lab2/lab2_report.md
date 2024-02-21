@@ -26,5 +26,6 @@ Date of finished:
 #### 1 часть
 
 В среде cisco packet tracer была реализована схема следующего вида:
+
 <img width="165" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/749e1c9a-c07b-4262-9554-9cb87497ed8c">
 
