@@ -29,3 +29,18 @@ Date of finished:
 
 <img width="165" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/749e1c9a-c07b-4262-9554-9cb87497ed8c">
 
+В конфигурационном режиме изменяем название маршрутизатора на CMERouter:
+
+<img width="500" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/e158b4b7-8589-46f6-a226-adc6ee6d1fb4">
+
+Отключим синтаксис ввода слов от DNS серверов.
+
+<img width="344" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/cc6e71e2-72be-4fe0-8d2a-95de47fc1d7d">
+
+Зададим пароли для защиты маршрутизатора как в удаленном режиме, так и в режиме консоли.
+
+<img width="436" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/73db51c4-6e57-4e7c-a115-7e8ed996829b">
+
+Настроим интерфейс fa0/0 на маршрутизаторе Cisco 2811 (CMERouter).
+
+
