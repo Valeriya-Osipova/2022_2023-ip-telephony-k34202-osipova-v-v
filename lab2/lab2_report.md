@@ -61,6 +61,8 @@ Date of finished:
 
 <img width="489" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/1bb02d63-a09c-4f4d-8458-2ba39f2679cb">
 
+Проверим звонки между телефонами и проверим остальные сервисы:
+
 
 
 
