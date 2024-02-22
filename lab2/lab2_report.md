@@ -102,5 +102,17 @@ Date of finished:
 
 <img width="519" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/262f5ce0-c0c0-432c-b9e5-33dbda02103b">
 
+Проверим связность:
+
+Выполним пинг между компьютерами:
+
+<img width="428" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/162f2460-aca6-466d-b899-86c9c169025e">
+<img width="342" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/d0cf4114-c38b-4d3d-8c15-dd38c2cc39cb">
+
+Выполним звонок между телефонами: 
+
+### Вывод
+В результате выполнения данной лабораторной работы удалось изучить построение сети IP-телефонии с помощью маршрутизатора Cisco 2811, коммутатора Cisco catalyst 3560 и IP телефонов Cisco 7960.
+
 
 
