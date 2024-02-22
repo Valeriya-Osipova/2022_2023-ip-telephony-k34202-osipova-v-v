@@ -27,7 +27,7 @@ Date of finished:
 
 В среде cisco packet tracer была реализована схема следующего вида:
 
-<img width="219" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/7b873642-9927-4d11-8c79-cdefee9209d4">
+<img width="231" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/eefb3663-d6bb-4caf-8a27-02b75d1a89cb">
 
 В конфигурационном режиме изменяем название маршрутизатора на CMERouter:
 
@@ -59,10 +59,12 @@ Date of finished:
 
 Настроим IP-телефоны и соединим с коммутатором Cisco Catalyst 3560.
 
-<img width="489" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/1bb02d63-a09c-4f4d-8458-2ba39f2679cb">
+<img width="512" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/2b29cafc-4a49-4a04-b629-163e33749135">
 
 Проверим звонки между телефонами и проверим остальные сервисы:
 
+<img width="665" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/463f2e3c-4f3f-46c8-b88f-d5d31c155829">
 
+<img width="695" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/89704da8-17c9-4552-935f-7aca1eff1599">
 
 
