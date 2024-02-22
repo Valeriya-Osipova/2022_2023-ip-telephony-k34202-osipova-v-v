@@ -83,4 +83,16 @@ Date of finished:
 
 <img width="349" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/fc8f2c77-2baf-412e-b14b-8132e934c6bb">
 
+На маршрутизаторе настроим DHCP-сервер для компьютеров и для телефонов:
+
+<img width="354" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/8a42e87e-f639-4d41-b308-ff0a1b17209d">
+
+На маршрутизаторе поднимаем саб-интерфейсы, соответсвующие vlan и назначаем им ip адреса:
+
+<img width="565" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/122a123b-df39-4906-bfe3-38ab36a738e8">
+
+<img width="677" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/6ab3cdab-a8db-4824-8d08-f48c83b36cb7">
+
+
+
 
