@@ -93,6 +93,9 @@ Date of finished:
 
 <img width="677" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/6ab3cdab-a8db-4824-8d08-f48c83b36cb7">
 
+Настроим телефоны
+
+<img width="549" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/f600c35d-6d3c-4cc5-989e-14226a0e5bde">
 
 
 
