@@ -75,9 +75,10 @@ Date of finished:
 
 <img width="360" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/3d49a13e-9fd6-41e8-96c5-3c0f8da50c0a">
 
-Интерфейс коммутатора переводим в режим trunk и разрешаем добавленные vlan
+Интерфейс коммутатора переводим в режим trunk
 
-<img width="356" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/7f95c406-7ac4-4ac7-8c62-bb121d2b3851">
+<img width="344" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/ed69fe2e-67b1-40e6-87e9-5d822f9019ea">
+
 
 Настроим другие интерфейсы коммутатора:
 
@@ -96,6 +97,10 @@ Date of finished:
 Настроим телефоны
 
 <img width="549" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/f600c35d-6d3c-4cc5-989e-14226a0e5bde">
+
+На PC включим DHCP:
+
+<img width="519" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/262f5ce0-c0c0-432c-b9e5-33dbda02103b">
 
 
 
