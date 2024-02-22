@@ -68,3 +68,19 @@ Date of finished:
 <img width="695" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/89704da8-17c9-4552-935f-7aca1eff1599">
 
 #### 2 часть
+
+В данной части работы была реализована схема следующего вида: 
+
+Создадим два VLAN порта на коммутаторе для взаимодействия коммутатора с маршрутизатором и подключить IP телефоны.
+
+<img width="360" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/3d49a13e-9fd6-41e8-96c5-3c0f8da50c0a">
+
+Интерфейс коммутатора переводим в режим trunk и разрешаем добавленные vlan
+
+<img width="356" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/7f95c406-7ac4-4ac7-8c62-bb121d2b3851">
+
+Настроим другие интерфейсы коммутатора:
+
+<img width="349" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/fc8f2c77-2baf-412e-b14b-8132e934c6bb">
+
+
