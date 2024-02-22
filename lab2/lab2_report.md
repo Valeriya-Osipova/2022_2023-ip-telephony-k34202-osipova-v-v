@@ -27,7 +27,7 @@ Date of finished:
 
 В среде cisco packet tracer была реализована схема следующего вида:
 
-<img width="165" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/749e1c9a-c07b-4262-9554-9cb87497ed8c">
+<img width="219" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/7b873642-9927-4d11-8c79-cdefee9209d4">
 
 В конфигурационном режиме изменяем название маршрутизатора на CMERouter:
 
@@ -53,7 +53,14 @@ Date of finished:
 
 <img width="428" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/b5ee5f7f-b244-4824-9ab9-bd0b1706fb75">
 
-Создать VLAN порты на коммутаторе Cisco Catalyst 3560 для взаимодействия коммутатора с маршрутизатором и подключить IP телефоны.
+Создадим VLAN порты на коммутаторе Cisco Catalyst 3560 для взаимодействия коммутатора с маршрутизатором и подключим IP телефоны.
+
+<img width="399" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/d999f37f-57b2-4e38-853f-18a40366a4d9">
+
+Настроим IP-телефоны и соединим с коммутатором Cisco Catalyst 3560.
+
+<img width="489" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/1bb02d63-a09c-4f4d-8458-2ba39f2679cb">
+
 
 
 
