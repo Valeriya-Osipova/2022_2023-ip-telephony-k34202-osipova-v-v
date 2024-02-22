@@ -43,4 +43,14 @@ Date of finished:
 
 Настроим интерфейс fa0/0 на маршрутизаторе Cisco 2811 (CMERouter).
 
+<img width="355" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/6ab2aee4-8784-48e1-9282-557ec9873f89">
+
+Настроим DHCP сервера для передачи голоса и данных на маршрутизаторе Cisco 2811.
+
+<img width="316" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/434f0dc1-88b5-4027-bbef-d11d5c45c220">
+
+Настроим услуги телефонии Cisco CallManager Express на маршрутизаторе 2811.
+
+
+
 
