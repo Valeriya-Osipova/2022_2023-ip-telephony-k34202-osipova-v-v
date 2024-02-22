@@ -67,4 +67,4 @@ Date of finished:
 
 <img width="695" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/89704da8-17c9-4552-935f-7aca1eff1599">
 
-
+#### 2 часть
