@@ -79,44 +79,56 @@ Date of finished:
 
 ### 2 часть
 
-В данной части работы была реализована схема следующего вида: 
+1. В данной части работы была реализована схема следующего вида: 
 
-Создадим два VLAN порта на коммутаторе для взаимодействия коммутатора с маршрутизатором и подключить IP телефоны.
+![image](https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/3ecc9abe-d989-48f7-a1a6-f39a822f7b33)
+
+
+2. Создадим два VLAN порта на коммутаторе для взаимодействия коммутатора с маршрутизатором и подключить IP телефоны.
 
 <img width="360" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/3d49a13e-9fd6-41e8-96c5-3c0f8da50c0a">
 
-Интерфейс коммутатора переводим в режим trunk
+
+3. Интерфейс коммутатора переводим в режим trunk.
 
 <img width="344" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/ed69fe2e-67b1-40e6-87e9-5d822f9019ea">
 
 
-Настроим другие интерфейсы коммутатора:
+4. Зададим маршрут по умолчанию командой ip default-gateway.
+
+![image](https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/5121b55a-62af-40b3-a304-51838e5cb6dc)
+
+
+5. Настроим другие интерфейсы коммутатора.
 
 <img width="349" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/fc8f2c77-2baf-412e-b14b-8132e934c6bb">
 
-На маршрутизаторе настроим DHCP-сервер для компьютеров и для телефонов:
+
+6. На маршрутизаторе настроим DHCP-сервер для компьютеров и для телефонов.
 
 <img width="354" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/8a42e87e-f639-4d41-b308-ff0a1b17209d">
 
-На маршрутизаторе поднимаем саб-интерфейсы, соответсвующие vlan и назначаем им ip адреса:
+
+7. На маршрутизаторе поднимаем саб-интерфейсы, соответсвующие vlan и назначаем им ip адреса.
 
 <img width="565" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/122a123b-df39-4906-bfe3-38ab36a738e8">
 
 <img width="677" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/6ab3cdab-a8db-4824-8d08-f48c83b36cb7">
 
-Настроим телефоны
+
+8. Настроим телефоны
 
 <img width="549" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/f600c35d-6d3c-4cc5-989e-14226a0e5bde">
 
 <img width="325" alt="Снимок экрана 2024-02-24 113622" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/593de7f3-a64e-40ad-9ae7-1302a598ec15">
 
 
-На PC включим DHCP:
+9. На PC включим DHCP:
 
 <img width="519" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/262f5ce0-c0c0-432c-b9e5-33dbda02103b">
 
 
-Проверим связность:
+10. Проверим связность:
 
 Выполним пинг между компьютерами:
 
