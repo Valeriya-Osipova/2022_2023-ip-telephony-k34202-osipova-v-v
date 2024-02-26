@@ -86,12 +86,12 @@ Date of finished:
 
 2. Создадим два VLAN порта на коммутаторе для взаимодействия коммутатора с маршрутизатором и подключить IP телефоны.
 
-<img width="360" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/3d49a13e-9fd6-41e8-96c5-3c0f8da50c0a">
+<img width="380" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/3d49a13e-9fd6-41e8-96c5-3c0f8da50c0a">
 
 
 3. Интерфейс коммутатора переводим в режим trunk.
 
-<img width="344" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/ed69fe2e-67b1-40e6-87e9-5d822f9019ea">
+<img width="364" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/ed69fe2e-67b1-40e6-87e9-5d822f9019ea">
 
 
 4. Зададим маршрут по умолчанию командой ip default-gateway.
@@ -101,7 +101,7 @@ Date of finished:
 
 5. Настроим другие интерфейсы коммутатора.
 
-<img width="349" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/fc8f2c77-2baf-412e-b14b-8132e934c6bb">
+<img width="369" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/fc8f2c77-2baf-412e-b14b-8132e934c6bb">
 
 
 6. На маршрутизаторе настроим DHCP-сервер для компьютеров и для телефонов.
@@ -120,12 +120,14 @@ Date of finished:
 
 <img width="549" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/f600c35d-6d3c-4cc5-989e-14226a0e5bde">
 
+
 <img width="325" alt="Снимок экрана 2024-02-24 113622" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/593de7f3-a64e-40ad-9ae7-1302a598ec15">
 
 
 9. На PC включим DHCP:
 
 <img width="519" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/262f5ce0-c0c0-432c-b9e5-33dbda02103b">
+
 
 
 10. Проверим связность:
