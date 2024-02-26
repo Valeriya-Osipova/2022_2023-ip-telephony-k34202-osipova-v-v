@@ -96,7 +96,7 @@ Date of finished:
 
 4. Зададим маршрут по умолчанию командой ip default-gateway.
 
-<img width="409" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/5121b55a-62af-40b3-a304-51838e5cb6dc">
+<img width="500" alt="image" src="https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/5121b55a-62af-40b3-a304-51838e5cb6dc">
 
 
 5. Настроим другие интерфейсы коммутатора.
