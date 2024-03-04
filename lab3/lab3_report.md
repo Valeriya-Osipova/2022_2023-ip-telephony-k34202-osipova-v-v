@@ -86,7 +86,8 @@ sip show peers
 
 7. Установим и настроим MicroSIP для телефона 1001:
 
-![Uploading image.png…]()
+![Скриншот 04-03-2024 192305](https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/4964f369-019b-4e13-baa5-24ae428e4db0)
+
 
 8. Совершим звонок с телефона 1001 на 1000, чтобы проверить соединение:
 
