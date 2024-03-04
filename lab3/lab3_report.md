@@ -82,7 +82,7 @@ sudo asterisk -r
 sip show peers
 ```
 
-![Скриншот 04-03-2024 195525](https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/236349b4-9ea6-4031-aca2-61a4605b8ed8)
+![image](https://github.com/Valeriya-Osipova/2023_2024-ip-telephony-k34202-osipova-v-v/assets/64967406/ac8dddc4-1bcb-43f4-bf09-3355d6301143)
 
 7. Установим и настроим MicroSIP для телефона 1001:
 
