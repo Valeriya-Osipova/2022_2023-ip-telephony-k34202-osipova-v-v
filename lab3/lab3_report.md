@@ -54,6 +54,7 @@ exten => _XXXX,1,Dial(SIP/${EXTEN})
 
 [ext_1001]
 exten => _XXXX,1,Dial(SIP/${EXTEN})
+```
 
 3. Перезапускаем Asterisk командой:
 
